@@ -1,0 +1,17 @@
+{
+    "name": "trannguyentrunghau/asm",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Trunghau3107",
+            "email": "hautntps30412@fpt.edu.vn"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    }
+}

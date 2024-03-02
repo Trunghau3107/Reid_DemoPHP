@@ -1,0 +1,355 @@
+li {
+    list-style: none;
+}
+
+body {
+    margin: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+p {
+    margin: 8px;
+}
+
+#container {
+    width: 100%;
+    margin: 0% auto;
+}
+
+header {
+    background-color: rgb(79, 82, 220);
+
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    height: 80px;
+
+}
+
+
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    /* 5 columns with equal width */
+    gap: 15px;
+}
+
+.menucon {
+    margin: 17px;
+
+    height: 15px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.996);
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+
+
+
+}
+
+.menucon>input {
+    height: 40px;
+}
+
+.logoOwen {
+    margin-top: 15px;
+}
+
+.end-header {
+    padding-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+    margin: 20px auto;
+    background-color: aliceblue;
+    padding-bottom: 10px;
+}
+
+.menu-left {
+    border: 180px;
+    border-radius: 10px;
+    background-color: rgb(250, 255, 255);
+    margin-left: 10px;
+}
+
+.menu-left>ul>li {
+    margin: 12px;
+
+}
+
+li>a {
+    color: black;
+    text-decoration: none;
+
+}
+
+li>a:hover {
+    color: red;
+
+}
+
+input {
+    border-radius: 5px;
+}
+
+.docker {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: 20px;
+    /* 5 columns with equal width */
+    gap: 10px;
+
+}
+
+.fullsp {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 10px;
+}
+
+.fullsp::-webkit-scrollbar {
+    width: 0;
+}
+
+.sanpham>img {
+    width: 70%;
+    padding: 5%;
+}
+
+strong {
+    color: rgb(223, 13, 13);
+    font-size: 20px;
+}
+
+del {
+    color: black;
+}
+
+.sanpham {
+    border: 40px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px;
+
+
+}
+
+.sanpham-image {
+    width: 20%;
+}
+
+.sanpham>button {
+    margin: 1px;
+    border-radius: 10px;
+    background-color: rgb(254, 250, 250);
+
+}
+
+.button-km {
+    height: 40px;
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.button-km p {
+    height: 40px;
+    width: 200px;
+    border: 1px solid #e5e7eb;
+    background-color: rgb(235, 234, 234);
+    margin-bottom: 20px;
+}
+
+.sanpham>input {
+    height: 60px;
+}
+
+.sanpham>a {
+    text-decoration: none;
+    text-align: center;
+}
+
+.submit {
+    height: 30px;
+    width: 80px;
+    border: 1px solid #e5e7eb;
+    background-color: rgb(235, 234, 234);
+    margin-bottom: 20px;
+}
+
+.love {
+    position: relative;
+    float: right;
+}
+
+.bank {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
+    row-gap: 40px;
+    margin: 50px auto;
+}
+
+.money>img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: rgb(251, 253, 255);
+    border: 1px solid #484040;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.chinhsach>p>a {
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+}
+
+.animation {
+    position: relative;
+    animation: animation 5s linear infinite;
+}
+
+
+@media screen and (max-width: 500px) {
+    .menu {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .end-header {
+        display: none;
+    }
+
+    .menu-left {
+        display: none;
+    }
+
+    .docker {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 20px;
+        /* 5 columns with equal width */
+        gap: 10px;
+
+    }
+
+    .fullsp {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.registerContainer {
+    border: 0px solid black;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+    width: 400px;
+    margin-top: 100px;
+    margin-left: 400px;
+}
+
+.mb-3 {
+    margin-bottom: 15px;
+}
+
+.form-control {
+    width: 100%;
+    height: 40px;
+    border: 0.3px solid black;
+}
+
+.label-control {
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-family: roboto;
+}
+
+.button {
+    background-color: rgb(79, 82, 220);
+    /* Green */
+    border: none;
+    border-radius: 10px;
+    color: white;
+
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.dropbtn {
+    background-color: #f1f1f1;
+
+
+    margin: 17px;
+    height: 15px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.996);
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+
+
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #c7cbc8;
+}
